@@ -9,7 +9,7 @@ Very simple.
 4. Once that is done go and start the app by running mvn spring-boot:run on the terminal.
 5. Click to open the localhost:8080 open in browser.
 6. Now once in browser add /populatebusstops after the localhost:8080 address or you can just copy this link
-   ---> http://localhost:8080/populatebusstops
+   ---> http://localhost:8080/populatedatabase
 7.  Click enter and a line will come up saying Bus Stops populated successfully!
 8.  Check on Dbeaver You should have 5145 records of id, bus_stop_code, description, latitude, logitude.
 9. That's all folks.
