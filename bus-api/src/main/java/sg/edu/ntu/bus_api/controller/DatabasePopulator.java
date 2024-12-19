@@ -22,8 +22,6 @@ public class DatabasePopulator {
         this.busRouteService = busRouteService;
     }
 
-
-
     @GetMapping("/populatedatabase")
     public String populateDatabses(){
         busStopService.populateBusDatabase();
